@@ -1,0 +1,10 @@
+<$mt:setvar name="page_title" value="Clicky Stats"$>
+
+<$mt:include name="include/header.tmpl" id="header_include"$>
+
+<iframe
+    style="border: 0; margin-left: 20px; width: 100%; height: 100%;"
+    src="http://getclicky.com/stats/wp-iframe?site_id=<$mt:var name="site_id"$>&sitekey=<$mt:var name="site_key"$>">
+</iframe>
+
+<$mt:include name="include/footer.tmpl" id="footer_include"$>
